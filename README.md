@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# 🎮 Buscaminas - React Native con Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Un juego clásico de Buscaminas desarrollado con React Native y Expo, con características modernas y una interfaz de usuario mejorada.
 
-## Get started
+## 🌟 Características
 
-1. Install dependencies
+- 🎯 Tres niveles de dificultad (Fácil, Medio, Difícil)
+- 🎵 Efectos de sonido y música de fondo
+- 📊 Sistema de estadísticas por nivel
+- 🏆 Seguimiento de mejores tiempos
+- 💾 Guardado automático del progreso
+- 📱 Diseño responsive para diferentes tamaños de pantalla
+- 🌐 Compatible con Web, iOS y Android
+- 🎨 Interfaz moderna y atractiva
+- 🔄 Animaciones suaves y fluidas
 
+## 🚀 Inicio Rápido
+
+1. **Instalación de dependencias**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Iniciar el proyecto**
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Opciones de ejecución**
+   - 📱 Presiona `a` para abrir en Android
+   - 🍎 Presiona `i` para abrir en iOS
+   - 🌐 Presiona `w` para abrir en Web
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎮 Cómo Jugar
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Selecciona la dificultad**
+   - Fácil: Tablero 9x9, 10 minas
+   - Medio: Tablero 16x16, 40 minas
+   - Difícil: Tablero 24x24, 99 minas
 
-## Get a fresh project
+2. **Controles**
+   - Toque rápido: Revelar celda
+   - Toque largo: Colocar/quitar bandera
+   - Emoji superior: Reiniciar partida
 
-When you're ready, run:
+3. **Objetivo**
+   - Revelar todas las celdas sin minas
+   - Marcar las minas con banderas
+   - ¡Completar el tablero en el menor tiempo posible!
 
-```bash
-npm run reset-project
-```
+## 🛠️ Tecnologías Utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Expo AV (para sonidos)
+- Async Storage
+- React Native Reanimated
 
-## Learn more
+## 📱 Capturas de Pantalla
 
-To learn more about developing your project with Expo, look at the following resources:
+[Próximamente]
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🔄 Actualizaciones Futuras
 
-## Join the community
+- [ ] Modo oscuro
+- [ ] Más temas visuales
+- [ ] Logros y desafíos
+- [ ] Ranking global
+- [ ] Modo multijugador
 
-Join our community of developers creating universal apps.
+## 👨‍💻 Desarrollado por
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+AB Torres - Coding
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
